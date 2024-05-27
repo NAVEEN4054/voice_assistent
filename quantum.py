@@ -48,9 +48,9 @@ def main():
       response="My name is Quantum, I am virtual voice assistant"
       print("My name is Quantum, I am virtual voice assistant") 
       speak(response)  
-   elif "How are you" in command:
-      input=print("I am fine, How about you?")
-      speak(input)
+   elif "how are you" in command:
+      response="I am fine, How about you?"
+      speak(response)
    elif "wikipedia" in command:
       speak("searching wikipedia...")
       command=command.replace("wikipedia",'')
